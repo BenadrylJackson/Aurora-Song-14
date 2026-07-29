@@ -80,7 +80,7 @@
       - MercenaryUplink
 
 - type: listing
-  id: Truncheon
+  id: UplinkMercenaryTruncheon
   name: uplink-mercenary-truncheon-name
   description: uplink-mercenary-truncheon-desc
   productEntity: Truncheon
@@ -91,12 +91,12 @@
   - UplinkMercenaryWeapons
   conditions:
   - !type:StoreWhitelistCondition
-  whitelist:
-    tags:
-    - MercenaryUplink
+    whitelist:
+      tags:
+      - MercenaryUplink
 
 - type: listing
-  id: PlasteelArmingSword
+  id: UplinkMercenaryPlasteelArmingSword
   name: uplink-mercenary-plasteelarmingsword-name
   description: uplink-mercenary-plasteelarmingsword-desc
   productEntity: PlasteelArmingSword
@@ -107,9 +107,9 @@
   - UplinkMercenaryWeapons
   conditions:
   - !type:StoreWhitelistCondition
-  whitelist:
-    tags:
-    - MercenaryUplink
+    whitelist:
+      tags:
+      - MercenaryUplink
 
 #Utility - Medical
 
